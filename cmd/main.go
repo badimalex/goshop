@@ -8,7 +8,7 @@ import (
 	"github.com/badimalex/goshop/internal/repositories"
 	"github.com/gin-gonic/gin"
 
-	"github.com/badimalex/goshop/internal/database"
+	"github.com/badimalex/goshop/pkg/database"
 
 	_ "github.com/golang-migrate/migrate/v4/source/file"
 	_ "github.com/lib/pq"
